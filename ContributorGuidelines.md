@@ -1,26 +1,26 @@
 # Contributor Guidelines
 
 ## Project Directory Structure
-```
+
+```shell
 .
-├── Chapter_1:Introduction_to_AI
-├── Chapter_2:Configuring_the_Raspberry_Pi_Environment
-├── Chapter_3:Computer_Vision_Projects_and_Practical_Applications
-├── Chapter_4:Large_Language_Model
-├── Chapter_5:Custom_Model_Development_and_Deployment
-├── Chapter_6:Raspberry_Pi_and_AIoT
+├── articles
+│   ├── Chapter1_Introduction_to_AI
+│   ├── Chapter2_Configuring_the_Raspberry_Pi_Environment
+│   ├── Chapter3_Computer_Vision_Projects_and_Practical_Applications
+│   ├── Chapter4_Large_Language_Model
+│   ├── Chapter5_Custom_Model_Development_and_Deployment
+│   └── Chapter6_Raspberry_Pi_and_AIoT
 ├── ContributorGuidelines.md
-├── issues
 ├── LICENSE
 ├── models
-├── pictures
 ├── README.md
 └── resource
 ```
 
-### Chapters
+### articles
 
-```Chapters``` is the main directory of the project, and you can create folder named with your project name in ```Chapter_6:Raspberry_Pi_and_AIoT```.
+```articles``` is the main directory of the project, and you can create subfolders named with your project name in ```Chapter_6:Raspberry_Pi_and_AIoT```.
 
 ### models
 
@@ -47,7 +47,7 @@ Open [Tutorial-of-AI-Kit-with-Raspberry-Pi-From-Zero-to-Hero](https://github.com
 Download project from your own repository. 
 
 ```
-git clone https://github.com/<YourRepo>/Tutorial-of-AI-Kit-with-Raspberry-Pi-From-Zero-to-Hero.git
+git clone https://github.com/Seeed-Projects/Tutorial-of-AI-Kit-with-Raspberry-Pi-From-Zero-to-Hero.git
 ```
 
 ### Create your project
